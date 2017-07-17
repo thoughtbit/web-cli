@@ -1,7 +1,7 @@
 import log from 'loglevel'
 import helper from './../helper'
 
-module.exports = {
+const cmd = {
   command: 'version',
   desc: '版本',
   builder: {},
@@ -15,3 +15,5 @@ module.exports = {
     // helper
   }
 }
+
+export default cmd
