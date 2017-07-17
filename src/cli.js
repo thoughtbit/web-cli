@@ -1,7 +1,7 @@
 import fs from 'fs'
 import log from 'loglevel'
 import chalk from 'chalk'
-import helper from './helper'
+// import helper from './helper'
 
 function setLogLevel () {
   let level = log.levels.INFO
